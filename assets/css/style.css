@@ -1,0 +1,375 @@
+.form {
+    width: 250px;
+    font-size: 13px;
+    padding-left: 20px;
+}
+.logo img {
+    width: 90px;
+    height: 36px;
+}
+.logo {
+    width: 90px;
+    margin: 0px auto;   
+}
+.icon p {
+    font-size: 10px;
+}
+/* .denisha    {
+    margin-left: 0%;
+    margin-top: -8%;
+} */
+/* .navbar {
+    margin-left: 25%;
+} */
+/* .navbar-toggler{
+    margin-right: 100%;
+} */
+/* .nav-link {
+    font-size: 13px;
+}
+.banner {
+    background-image: url("../img/banner/banner.webp");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30%;
+}
+
+.banner-content h5 {
+    font-size: 40px;
+}
+
+.banner-content p {
+    font-size: 60px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.title-p {
+    font-size: 17px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn2 {
+    font-size: 16px;
+    padding: 10px 35px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    border-radius: 0%;
+    padding: 5px;
+}
+
+.card img {
+    border-radius: 0%;
+}
+
+.card-body a {
+    color: black;
+    text-decoration: none;
+}
+
+.category {
+    background-color: #FEF6F6;
+}
+
+.category-img {
+    overflow: hidden;
+}
+
+.category-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.category-img img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+.sale {
+    background-color: #DCCFD5;
+    padding-top: 50px;
+}
+
+.title-t p {
+    line-height: 1;
+}
+
+.title-t {
+    font-size: 80px;
+    line-height: 1.2;
+}
+
+.title-pp {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-outline-secondary {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.sofa {
+    background-image: url(../img/sofas/bg.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 13%;
+}
+
+.sofa-content h5 {
+    font-size: 19px;
+}
+
+.sofa-content p {
+    font-size: 100px;
+    line-height: 1.2;
+}
+
+.sale2 {
+    background-color: #ECD2C9;
+    padding-top: 50px;
+}
+.progress{
+    background-image: url(../img/box/bg-box.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 13%;
+    border-radius: 0%;
+
+}
+.p-box{
+    width: 470px;
+    height: 337px;
+    background-color: #ffffff;
+    margin: 0px auto;
+    padding: 10px;
+}
+.inner-box{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+}
+.inner-box p{
+    font-size: 18px;
+}
+.btn-dark{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.btn-dark:hover{
+    background-color: white;
+    color: black;
+}
+.style{
+    background-color: #FEF6F6;
+}
+.style img{
+    width: 100%;
+    object-fit: cover;
+    display: inline;
+}
+.style{
+    position: relative;
+
+}
+.plus,.plus2,.plus3,.plus4{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 3px 11px;   
+}
+.plus{
+    bottom: 20%;
+    left: 20%; 
+}
+.plus2{
+    bottom: 30%;
+    left: 40%;
+}
+.plus3{
+    bottom: 32%;
+    left: 50%;
+}
+.plus4{
+    bottom: 30%;
+    right: 15%;
+}
+.item-box{
+    position: absolute;
+    bottom: 0%;
+    width: 260px;
+    height: 154px;
+    background-color: white;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.item-box.active{
+    opacity: 1;
+    visibility: visible;
+}
+.chair-content span{
+    font-size: 14px;
+}
+.chair-content h5{
+    font-size: 14px;
+}
+.chair img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.chair-content{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.add{
+    text-decoration: none;
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.light-item{
+    position: absolute;
+    width: 240px;
+    height: 130px;
+    background-color: white;
+    padding: 10px;
+    bottom: 8%;
+    left: 35%;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.light-item.active{
+    opacity: 1;
+    visibility: visible;
+}
+.light-item img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.flower-item{
+    position: absolute;
+    width: 260px;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+    bottom: 10%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.flower img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.flower-item.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.dining-item{
+    position: absolute;
+    width: 240px;
+    height: 140px;
+    background-color: white;
+    padding: 0px 15px;
+    bottom: 10%;
+    right: 10%;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.dining img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.dining-item.active{
+    opacity: 1;
+    visibility: visible;
+}
+.carasol{
+    background-color: #FDF6F6;
+}
+.star i{
+    color: #F57A28;
+}
+.shop{
+    background-image: url(../img/style/demo13-slide1.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    padding-top: 150px;
+    outline: 1px solid white
+} */
